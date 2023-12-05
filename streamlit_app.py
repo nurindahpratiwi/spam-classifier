@@ -6,8 +6,8 @@ import nltk
 from nltk.stem.porter import PorterStemmer
 
 def main():
-    tfidf_path = '/home/wiwaaw/Projects/powerfulProjects/spam-class/vectorizer.pkl'
-    model_path = '/home/wiwaaw/Projects/powerfulProjects/spam-class/spam.pkl'
+    tfidf_path = 'vectorizer.pkl'
+    model_path = 'spam.pkl'
 
     # Load CountVectorizer and model
     tfidf = pickle.load(open(tfidf_path, 'rb'))

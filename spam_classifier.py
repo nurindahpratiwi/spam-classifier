@@ -16,7 +16,7 @@ nltk.download('stopwords')
 nltk.download('punkt')
 
 # Read CSV file into a Pandas DataFrame
-data = pd.read_csv('/home/wiwaaw/Projects/powerfulProjects/spam-class/spam_emails.csv', encoding='ISO-8859-1', encoding_errors='strict')
+data = pd.read_csv('spam_emails.csv', encoding='ISO-8859-1', encoding_errors='strict')
 
 # Initialize Porter Stemmer for stemming
 ps = PorterStemmer()
